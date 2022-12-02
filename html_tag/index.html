@@ -2,14 +2,7 @@
 <html>
 <head>
 	<title>HTML & CSS by Jon Duckett's Total Code</title>
-	<style type="text/css">
-		.each_chapter {
-			border: 1px solid;
-			padding: 1em;
-			margin-bottom: 4em;
-		}
-
-	</style>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 	출처: Jon Duckett의 <cite><a href="https://www.htmlandcssbook.com/code-samples/">HTML and CSS <sub>Design and Build Websites</sub></a></cite>
@@ -149,7 +142,7 @@
 	</div>
 
 	<div class="each_chapter">
-		정렬된 리스트 <sub>ORDERED</sub>
+		정렬된 리스트 <sub>ORDERED LISTS</sub>
 		<hr />
 		<ol>
 			<li>감자를 4등분으로 썰어라</li>
@@ -173,10 +166,134 @@
 	</div>
 
 	<div class="each_chapter">
+		정의 리스트 <sub>DEFINITIONS LISTS</sub>
+		<hr />
 		<dl>
 			<dt>사시미</dt>
+			<dd>다져진 다이콘 무나 생강 뿌리, 와사비와 간장 소스같은 같은 조미료와 함께 제공되는 저밀어진 날생선</dd>
+			
+			<dt>스케일<sub>(Scale)</sub></dt>
+			<dd>재료들의 무게를 정확히 측정하기 위해 쓰이는 도구</dd>
+			<dd>기술로서의 스케일은 생선의 비늘 등을 제거하는 것이다.</dd>
+
+			<dt>스카모르차 (Scamorze)</dt>
+			<dt>스카모르차 (Scamorzo)</dt>
+			<dd>보통 완전 젖소의 우유로 만들어진 이탈리안 치즈다 (비록 전통적으로는 버팔로 젖으로 만들어졌다.)</dd>
 		</dl>
 	</div>
 
+	<div class="each_chapter">
+		중첩된 리스트 <sub>Nested Lists</sub>
+		<hr />
+		<ul>
+			<li>무스</li>
+			<li>페이스트리
+				<ul>
+					<li>크로아상</li>
+					<li>밀푀유</li>
+					<li>팔미예</li>
+					<li>프로피트롤</li>
+				</ul>
+			</li>
+			<li>타르트</li>
+		</ul>
+	</div>
+
+	<div class="each_chapter">
+		Example <sub>Lists</sub>
+		<hr />
+		<h1>스크램블 에그</h1>
+		<p>
+			"달걀은 나의 가장 좋아하는 음식 중 하나다. 여기 맛있는 스크램블 에그를 위한 레시피가 있다."
+		</p>
+		
+		<h2>재료</h2>
+		<ul>
+			<li>달걀 2개</li>
+			<li>버터 1tbs<sub>테이블 스푼</sub></li>
+			<li>크림 2tbs<sub>테이블 스푼</sub></li>
+		</ul>
+
+		<h2>방법</h2>
+		<ol>
+			<li>버터를 프라이팬 안에서 중간 불로 녹여라</li>
+			<li>달걀과 크림을 그릇 안에서 살살 섞어라</li>
+			<li>버터가 녹기 시작하면 크림과 달걀을 추가해라</li>
+			<li>주걱을 사용해서 달걀을 팬의 끝에서 중앙 쪽으로 매 20초마다 접어라 (만약 당신이 오믈렛을 만드는 것 처럼)</li>
+			<li>달걀이 아직 촉촉할때 불에서 뺀다 (접시에 서빙될 때까지 계속해서 <sub>잔열로 인해</sub> 조리될 것이다)</li>
+		</ol>
+	</div>
+
+	<div class="each_chapter">
+		링크 쓰기 <sub>WRITING LINKS</sub>
+		<hr />
+		<a href="http://www.imdb.com">IMDB</a>
+	</div>
+
+	<div class="each_chapter">
+		다른 사이트로 링크 걸기 <sub> LINKING TO OTHER SITES </sub>
+		<hr />
+		<p>영화 리뷰:</p>
+		<ul>
+			<li><a href="https://pedia.watcha.com/ko-KR">왓챠피디아</a></li>
+			<li><a href="http://www.cgv.co.kr/movies/detail-view/?midx=86481">CGV</a></li>
+			<li><a href="https://movie.naver.com/">네이버 영화</a></li>
+			<li><a href="https://movie.daum.net/main">다음 영화</a></li>
+			<li><a href="http://www.empireonline.com">Empire</a></li>
+			<li><a href="http://www.metacritic.com">Metacritic</a></li>
+			<li><a href="http://www.rottentomatoes.com">Rotten Tomatoes</a></li>
+			<li><a href="http://www.variety.com">Variety</a></li>
+		</ul>
+	</div>
+
+	<div class="each_chapter">
+		같은 페이지의 다른 페이지로 링크 걸기 <sub>Linking to Other Pages on the Same Site</sub>
+		<hr />
+		<ul>
+			<li><a href="linking/home.html">Home</a></li>
+			<li><a href="linking/about.html">About</a></li>
+			<li><a href="linking/movies.html">Movies</a></li>
+			<li><a href="linking/contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="each_chapter">
+		이메일 링크 <sub>EMAIL LINKS</sub>
+		<hr />
+		<a href="mailto:jon@example.org">이메일 존</a>
+	</div>
+
+	<div class="each_chapter">
+		링크를 새 창에서 열기 <sub>OPENING LINKS IN A NEW WINDOWS</sub>
+		<hr />
+		<p>
+			<a href="https://pedia.watcha.com/ko-KR" target="_blank">왓챠피디아 (새 창에서 열림)</a>
+		</p>
+		<sub>크롬 기준으로는 새 탭에서 열림</sub>
+	</div>
+
+	<div class="each_chapter">
+		특정한 부분으로의 링크 걸기 <sub>Linking to a Specific Part</sub>
+		<hr />
+		<h1 id="top">영화 만들기 과제</h1>
+		<a href="#arc_shot">아크 숏</a><br>
+		<a href="#interlude">인터루드</a><br>
+		<a href="#prologue">프롤로그</a><br><br>
+		<h2 id="arc_shot">아크 숏</h2>
+		<p>주위를 돌거나 움직이는 카메라에 의해 피사체가 사진에 찍히는 샷</p>
+		<h2 id="interlude">인터루드 <sub>막간</sub></h2>
+		<p>요약해서, 인터루드 필름 씬이나 시퀀스는 플롯에 상관없이 필름에 나타나는 것이다.</p>
+		<h2 id="prologue">프롤로그</h2>
+		<p>말하기, 서문, 소개, 혹은 영화의 메인 액션이나 플롯에 앞선 요약 씬. 에필로그와 대조된다.</p>
+		<p><a href="#top">맨 위로</a></p>
+	</div>
+
+	<div class="each_chapter">
+		<sub></sub>
+		<hr />
+	</div>
+
+
+	
 </body>
 </html>
